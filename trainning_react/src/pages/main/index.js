@@ -97,6 +97,10 @@ class Main extends Component {
                                 <td>{produto.categoria}</td>
                                 <td>{produto.valor}</td>
                                 <td>
+                                <a href={'/produtos/' + produto.id } class="btn btn-primary btn-sm">Editar</a>
+                                    &nbsp;&nbsp;
+
+
                                     {/* <button data-id={produto.id} onClick={e => this.excluir(e)} class="btn btn-danger btn-sm" >Excluir</button> */}
                                     <button onClick={e => 
                                                 window.confirm("Você realmente deseja excluir o produto?") &&
