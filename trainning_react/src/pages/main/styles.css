@@ -1,1 +1,6 @@
 /* Estilo do componente Main */
+.fechar{
+    float: right;
+    right: 0;
+    cursor: pointer;
+}
